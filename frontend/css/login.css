@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    user-select: none;
+}
+button{
+    cursor: pointer;
+}
+.wrapper{
+    background-image: url("/assets/images/Wrapper\ image.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.container{
+    height: 500px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 5px 10px 5px  rgba(11, 11, 11, 0.625);
+}
+
+.image-div{
+width: 50%;
+height: 100%;
+background-image: url("/assets/images/Signup\ art.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 10px 0px 0px 10px;
+}
+.signup-div{
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+.signup-div h3{
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #00000096;
+}
+.socialmedia-options{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.socialmedia-options button{
+ height: 50px;
+ width: 250px;
+ background: none;
+ border: rgba(0, 0, 0, 0.423) solid;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+ outline: none;
+}
+.Google img {
+    height: 30px;
+    width: 30px;
+}
+.Facebook img{
+    height: 30px;
+    width: 50px;
+}
+form{
+    /* background-color: aqua; */
+    height: 150px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form input{
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    outline: none;
+  
+}
+
+.create{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.create button{
+    height: 50px;
+    width: 200px;
+    padding: 10px 10px;
+    font-size: medium;
+    background-color: #0d99ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.create p{
+ font-family: 'Poppins';
+ color: #0000006f;
+}
+
+.create p span{
+    color: #0d99ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
